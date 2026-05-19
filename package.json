@@ -1,11 +1,11 @@
 {
   "name": "ego-striker-discord-bot",
   "version": "1.0.0",
-  "description": "Starter Discord bot for the Ego Striker Roblox project.",
-  "main": "src/index.js",
+  "description": "Discord bot for Roblox TimePlayed leaderboard.",
+  "main": "index.js",
   "scripts": {
-    "deploy": "node src/deploy-commands.js",
-    "start": "node src/index.js"
+    "deploy": "node deploy-commands.js",
+    "start": "node index.js"
   },
   "dependencies": {
     "discord.js": "^14.19.3",
